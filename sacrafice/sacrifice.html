@@ -37,16 +37,14 @@
   .img-grid{display:grid;gap:1rem;margin:1.5rem 0}
   .img-grid.cols-2{grid-template-columns:1fr 1fr}
   .img-grid.cols-3{grid-template-columns:1fr 1fr 1fr}
-  .img-grid.cols-4{grid-template-columns:1fr 1fr 1fr 1fr}
   .img-box{border-radius:.5rem;overflow:hidden;border:1px solid var(--border)}
   .img-box img{width:100%;height:100%;object-fit:cover;display:block}
   .img-box.fixed{height:200px}
   .img-box.tall{height:260px}
-  .img-box.short{height:160px}
   .back-btn{display:inline-flex;align-items:center;gap:.5rem;padding:.7rem 1.5rem;border:1px solid var(--border);border-radius:.3rem;color:var(--muted);text-decoration:none;font-size:.9rem;transition:all .2s;margin-top:2rem}
   .back-btn:hover{color:var(--accent2);border-color:var(--accent2)}
   @media(max-width:600px){
-    .img-grid.cols-2,.img-grid.cols-3,.img-grid.cols-4{grid-template-columns:1fr 1fr}
+    .img-grid.cols-2,.img-grid.cols-3{grid-template-columns:1fr 1fr}
   }
 </style>
 </head>
@@ -58,7 +56,7 @@
 </nav>
 
 <div class="project-hero">
-  <img src="img18.png" alt="Sacrifice is Necessary gameplay"/>
+  <img src="18.png" alt="Sacrifice is Necessary gameplay"/>
   <div class="project-hero-overlay"></div>
   <div class="project-hero-content">
     <h1>Sacrifice is <span>Necessary</span></h1>
@@ -89,8 +87,8 @@
   <div class="section">
     <h2>Inspiration</h2>
     <div class="img-grid cols-2">
-      <div class="img-box fixed"><img src="img19.png" alt="Altered Carbon"/></div>
-      <div class="img-box fixed"><img src="img20.png" alt="Sokoban"/></div>
+      <div class="img-box fixed"><img src="19.png" alt="Altered Carbon"/></div>
+      <div class="img-box fixed"><img src="20.png" alt="Sokoban"/></div>
     </div>
     <p>The cooperative movement system draws from Shadow Tactics, while the sci-fi setting is inspired by Altered Carbon. The top-down puzzle structure is a modern take on classic Sokoban.</p>
   </div>
@@ -98,8 +96,8 @@
   <div class="section">
     <h2>Level Design</h2>
     <div class="img-grid cols-2">
-      <div class="img-box fixed"><img src="img2.png" alt="Level 1 sketch"/></div>
-      <div class="img-box fixed"><img src="img1.png" alt="Level sketch Power 20"/></div>
+      <div class="img-box fixed"><img src="2.png" alt="Level 1 sketch"/></div>
+      <div class="img-box fixed"><img src="1.png" alt="Level sketch Power 20"/></div>
     </div>
     <p>Levels were sketched on paper first — mapping out box positions, robot start points, and target locations. Each level was designed around a specific mechanic to teach or challenge the player.</p>
   </div>
@@ -107,9 +105,9 @@
   <div class="section">
     <h2>Early Prototyping</h2>
     <div class="img-grid cols-3">
-      <div class="img-box fixed"><img src="img9.png" alt="Propulsion test Power 5"/></div>
-      <div class="img-box fixed"><img src="img11.png" alt="Early level Power 15"/></div>
-      <div class="img-box fixed"><img src="img12.png" alt="Early level iteration"/></div>
+      <div class="img-box fixed"><img src="9.png" alt="Propulsion test"/></div>
+      <div class="img-box fixed"><img src="11.png" alt="Early level Power 15"/></div>
+      <div class="img-box fixed"><img src="12.png" alt="Early level iteration"/></div>
     </div>
     <p>Early builds used placeholder cylinders and white boxes to test robot movement and box pushing mechanics before finalising the art style.</p>
   </div>
@@ -117,38 +115,38 @@
   <div class="section">
     <h2>3D Modeling</h2>
     <div class="img-grid cols-2">
-      <div class="img-box fixed"><img src="img8.png" alt="Robot wireframe 3ds Max"/></div>
-      <div class="img-box fixed"><img src="img10.png" alt="Robot model 2"/></div>
+      <div class="img-box fixed"><img src="8.png" alt="Robot wireframe"/></div>
+      <div class="img-box fixed"><img src="10.png" alt="Robot model 2"/></div>
     </div>
     <p>Both robot characters were modeled in 3ds Max. Two color variations — yellow/blue and teal — distinguish the two playable robots. Custom loop animations were created for idle and movement states.</p>
-    <div class="img-grid cols-2" style="margin-top:1rem">
-      <div class="img-box fixed"><img src="img7.png" alt="Unity editor with robots"/></div>
+    <div class="img-grid cols-2" style="margin-top:0">
+      <div class="img-box fixed"><img src="7.png" alt="Unity editor with robots"/></div>
     </div>
   </div>
 
   <div class="section">
     <h2>Programming</h2>
     <div class="img-grid cols-3">
-      <div class="img-box fixed"><img src="img3.png" alt="C# code 1"/></div>
-      <div class="img-box fixed"><img src="img4.png" alt="C# code 2"/></div>
-      <div class="img-box fixed"><img src="img5.png" alt="C# code 3"/></div>
+      <div class="img-box fixed"><img src="3.png" alt="C# code 1"/></div>
+      <div class="img-box fixed"><img src="4.png" alt="C# code 2"/></div>
+      <div class="img-box fixed"><img src="5.png" alt="C# code 3"/></div>
     </div>
     <div class="img-grid cols-2" style="margin-top:0">
-      <div class="img-box fixed"><img src="img6.png" alt="C# code 4"/></div>
+      <div class="img-box fixed"><img src="6.png" alt="C# code 4"/></div>
     </div>
-    <p>The player controller handles robot switching, movement direction, box detection, and step counting. Written in C# inside Unity, with coroutines managing the smooth movement animations.</p>
+    <p>The player controller handles robot switching, movement direction, box detection, and step counting. Written in C# inside Unity, with coroutines managing smooth movement animations.</p>
   </div>
 
   <div class="section">
     <h2>Final Screenshots</h2>
     <div class="img-grid cols-2">
-      <div class="img-box tall"><img src="img13.png" alt="Screenshot 1"/></div>
-      <div class="img-box tall"><img src="img14.png" alt="Screenshot 2"/></div>
+      <div class="img-box tall"><img src="13.png" alt="Screenshot 1"/></div>
+      <div class="img-box tall"><img src="14.png" alt="Screenshot 2"/></div>
     </div>
     <div class="img-grid cols-3" style="margin-top:0">
-      <div class="img-box fixed"><img src="img15.png" alt="Screenshot 3"/></div>
-      <div class="img-box fixed"><img src="img16.png" alt="Screenshot 4"/></div>
-      <div class="img-box fixed"><img src="img17.png" alt="Screenshot 5"/></div>
+      <div class="img-box fixed"><img src="15.png" alt="Screenshot 3"/></div>
+      <div class="img-box fixed"><img src="16.png" alt="Screenshot 4"/></div>
+      <div class="img-box fixed"><img src="17.png" alt="Screenshot 5"/></div>
     </div>
   </div>
 
