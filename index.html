@@ -195,27 +195,7 @@
           <div class="expand-hint">Click to see more ↓</div>
         </div>
         <div class="project-detail">
-          <div class="detail-section">
-            <h4>About the Game</h4>
-            <p>A two-player competitive card game inspired by the Cold War conflict between two nations. Each round, players choose weapon and economy cards to outplay their opponent. The game rewards both strategic planning and reading your opponent's hand.</p>
-          </div>
-          <div class="detail-section">
-            <h4>Core Mechanic</h4>
-            <p>Players manage two types of cards — green economy cards and red weapon cards, each with three power levels. Cards are placed simultaneously each round, so you have to predict what the other player will do. Blank "permanent" cards add a bluffing layer to every turn.</p>
-          </div>
-          <div class="detail-section">
-            <h4>What I Did</h4>
-            <p>Designed the full card system, game board, and round structure. Created all card illustrations and the box art. Playtested extensively to balance the weapon and economy cards. Inspired by Sheriff of Nottingham's hidden information mechanics.</p>
-          </div>
-          <div class="detail-section">
-            <h4>Tools Used</h4>
-            <div class="detail-chips">
-              <span class="chip">Tabletop Design</span>
-              <span class="chip">Card Illustration</span>
-              <span class="chip">Playtesting</span>
-              <span class="chip">System Design</span>
-            </div>
-          </div>
+          <a href="iron-curtain/iron-curtain.html" class="view-btn" onclick="event.stopPropagation()">View Full Project →</a>
           <div class="close-btn" onmousedown="toggleCard(this.closest('.project-card'))">Close ↑</div>
         </div>
       </div>
@@ -263,36 +243,67 @@
         </div>
       </div>
 
+      <!-- Lumibot -->
+      <div class="project-card" onclick="toggleCard(this)">
+        <div class="project-thumb">
+          <div class="thumb-bg" style="background:linear-gradient(135deg,#1a0d2e,#5dcaa544)"></div>
+          <span>&#129440;</span>
+        </div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="ptag">Action</span>
+            <span class="ptag green">Game Jam</span>
+            <span class="ptag orange">Ludum Dare 56</span>
+          </div>
+          <h3>Lumibot</h3>
+          <p>A micro-organism themed game made in 72 hours for Ludum Dare 56 — "Tiny Creatures."</p>
+          <div class="project-role"><strong>Role:</strong> Programmer &amp; Animator</div>
+          <div class="expand-hint">Click to see more ↓</div>
+        </div>
+        <div class="project-detail">
+          <div class="detail-section">
+            <h4>About the Game</h4>
+            <p>Built for the Ludum Dare 56 jam with the theme "Tiny Creatures," Lumibot features micro-organisms and biological enemies. I programmed the enemy actions and spawning system, and also designed and animated the main character and enemy assets.</p>
+          </div>
+          <div class="detail-section">
+            <h4>Tools Used</h4>
+            <div class="detail-chips">
+              <span class="chip">Unity</span>
+              <span class="chip">C#</span>
+              <span class="chip">Animation</span>
+              <span class="chip">Enemy AI</span>
+            </div>
+          </div>
+          <a href="https://ldjam.com/events/ludum-dare/56/lumibot" target="_blank" class="view-btn" onclick="event.stopPropagation()">View on Ludum Dare →</a>
+          <div class="close-btn" onmousedown="toggleCard(this.closest('.project-card'))">Close ↑</div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
 
 <section id="skills">
   <div class="container">
-    <p class="section-tag">Expertise</p>
+    <p class="section-tag">What I Work With</p>
     <h2 class="section-title">Skills & Tools</h2>
     <div class="section-divider"></div>
     <div class="skills-grid">
       <div class="skill-card">
         <h4>&#9881; Game Design</h4>
-        <div class="skill-item"><span class="skill-label">Level Design</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:90%"></div></div></div>
-        <div class="skill-item"><span class="skill-label">Mechanics Design</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:85%"></div></div></div>
-        <div class="skill-item"><span class="skill-label">System Design</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:80%"></div></div></div>
-        <div class="skill-item"><span class="skill-label">Prototyping</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:88%"></div></div></div>
+        <p style="color:var(--muted);font-size:.9rem;line-height:1.7">Level design, mechanics design, system design, rapid prototyping, and playtesting. Comfortable across both digital and tabletop formats.</p>
       </div>
       <div class="skill-card">
-        <h4>&#128187; Tools</h4>
-        <div class="skill-item"><span class="skill-label">Unity</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:80%"></div></div></div>
-        <div class="skill-item"><span class="skill-label">3ds Max</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:65%"></div></div></div>
-        <div class="skill-item"><span class="skill-label">C#</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:72%"></div></div></div>
-        <div class="skill-item"><span class="skill-label">Blender</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:60%"></div></div></div>
+        <h4>&#128187; Programming</h4>
+        <p style="color:var(--muted);font-size:.9rem;line-height:1.7">C# (primary), Python. Experience building gameplay systems, player controllers, and enemy AI in Unity.</p>
       </div>
       <div class="skill-card">
-        <h4>&#127918; Game Formats</h4>
-        <div class="skill-item"><span class="skill-label">Digital Games</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:82%"></div></div></div>
-        <div class="skill-item"><span class="skill-label">Tabletop / Card</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:78%"></div></div></div>
-        <div class="skill-item"><span class="skill-label">Puzzle Design</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:88%"></div></div></div>
-        <div class="skill-item"><span class="skill-label">Game Jams</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:75%"></div></div></div>
+        <h4>&#127912; Tools & Software</h4>
+        <p style="color:var(--muted);font-size:.9rem;line-height:1.7">Unity, Blender, 3ds Max. Also experimented with Godot through IGDA workshops.</p>
+      </div>
+      <div class="skill-card">
+        <h4>&#127760; Languages</h4>
+        <p style="color:var(--muted);font-size:.9rem;line-height:1.7">Mandarin, English, Cantonese — fluent in all three.</p>
       </div>
     </div>
   </div>
@@ -313,9 +324,9 @@
       <textarea placeholder="Your message..."></textarea>
       <button class="btn btn-primary" style="width:100%;font-size:1rem">Send Message</button>
       <div class="contact-links">
-        <a href="#" class="contact-link">&#128100; LinkedIn</a>
-        <a href="https://ldjam.com/events/ludum-dare/56/lumibot" class="contact-link">&#127918; Ludum Dare</a>
-        <a href="#" class="contact-link">&#128202; GitHub</a>
+        <a href="https://www.linkedin.com/in/kaimingli666/" target="_blank" class="contact-link">&#128100; LinkedIn</a>
+        <a href="https://ldjam.com/events/ludum-dare/56/lumibot" target="_blank" class="contact-link">&#127918; Ludum Dare</a>
+        <a href="https://github.com/vdoggggge" target="_blank" class="contact-link">&#128202; GitHub</a>
         <a href="mailto:li.kaim@northeastern.edu" class="contact-link">&#128140; li.kaim@northeastern.edu</a>
       </div>
     </div>
